@@ -1,0 +1,71 @@
+/* Colors and fonts */
+
+body{
+  background-color: #005691;
+  color: rgb(30, 30, 30);
+  font-family: 'Zilla Slab', serif;;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;;
+}
+
+h1 {
+	color: #005691;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 32px;
+}
+
+h2 {
+	color: #004a7c;
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: blue;
+}
+ 
+a:hover {
+	color: red;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #f8efd4;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius:4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 20px;
+	padding-inline-start: 0px;
+}
+.list-inline li {
+   display: inline;
+   padding: 20px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #0779e4
+}
+
+.list-inline i:hover {
+	color: #dd0a35;
+}
+
+
